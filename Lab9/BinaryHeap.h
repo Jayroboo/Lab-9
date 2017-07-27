@@ -21,7 +21,10 @@ class BinaryHeap {
 
 private:
 	// To do: Add the data members here!
+	int elementCount;
+	const int CAPACITY = 10;
 
+	Event elements[];
 
 	// Utility method - Recursively put the array back into a minimum binary heap.
 	void reHeapUp(int indexOfBottom);

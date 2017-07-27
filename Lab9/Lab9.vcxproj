@@ -115,8 +115,10 @@
     <ClInclude Include="Event.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryHeap.cpp" />
     <ClCompile Include="EmptyDataCollectionException.cpp" />
     <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
